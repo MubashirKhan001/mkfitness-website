@@ -5,7 +5,7 @@ function Header() {
     return (
 
         <header className="p-8 flex justify-between items-center bg-cover bg-center">
-            <div class="logo">
+            <div>
                 <img className="w-[150px]" src={Logo} alt="FITNESS LOGO" />
             </div>
             <nav>
@@ -18,16 +18,16 @@ function Header() {
             </nav>
             <div className="flex justify-center items-center gap-x-2 text-[#f36100] text-[20px]">
                 <div className="transition-all duration-500 linear flex  justify-center items-center cursor-pointer w-8 h-8 rounded-[50%] hover:bg-white hover:text-shadow-orange-500">
-                    <i class="fa-solid fa-globe"></i>
+                    <i className="fa-solid fa-globe"></i>
                 </div>
                 <div className="transition-all duration-500 linear flex  justify-center items-center cursor-pointer w-8 h-8 rounded-[50%] hover:bg-white hover:text-shadow-orange-500">
-                    <i class="fa-brands fa-facebook"></i>
+                    <i className="fa-brands fa-facebook"></i>
                 </div>
                 <div className="transition-all duration-500 linear flex  justify-center items-center cursor-pointer w-8 h-8 rounded-[50%] hover:bg-white hover:text-shadow-orange-500">
-                    <i class="fa-brands fa-twitter"></i>
+                    <i className="fa-brands fa-twitter"></i>
                 </div>
                 <div className="transition-all duration-500 linear flex  justify-center items-center cursor-pointer w-8 h-8 rounded-[50%] hover:bg-white hover:text-shadow-orange-500">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram"></i>
                 </div>
             </div>
         </header>

@@ -7,19 +7,19 @@ function Footer() {
         <div className="bg-black py-8 flex flex-col gap-y-15">
             <div className="flex justify-around items-center  text-white">
                 <div className="flex gap-x-2 justify-center items-center">
-                    <div className="flex justify-center items-center bg-orange-600 text-white w-[30px] h-[30px] rounded-[50%]"><i class="fa-solid fa-location-dot"></i></div>
+                    <div className="flex justify-center items-center bg-orange-600 text-white w-[30px] h-[30px] rounded-[50%]"><i className="fa-solid fa-location-dot"></i></div>
                     <div className="text-[10px] flex flex-col gap-y-1">
                         <p>333 Middle Winchendon Rd, Rindge,</p>
                         <p>NH 03461</p>
                     </div>
                 </div>
                 <div className="flex gap-x-2 justify-center items-center">
-                    <div className="flex justify-center items-center bg-orange-600 text-white w-[30px] h-[30px] rounded-[50%]"><i class="fa-solid fa-mobile-button"></i></div>
+                    <div className="flex justify-center items-center bg-orange-600 text-white w-[30px] h-[30px] rounded-[50%]"><i className="fa-solid fa-mobile-button"></i></div>
                     <p className="text-[10px]">125-711-811</p>
                     <p className="text-[10px]">125-668-886</p>
                 </div>
                 <div className="flex gap-x-1 justify-center items-center">
-                    <div className="flex justify-center items-center bg-orange-600 text-white w-[30px] h-[30px] rounded-[50%]"><i class="fa-solid fa-envelope"></i></div>
+                    <div className="flex justify-center items-center bg-orange-600 text-white w-[30px] h-[30px] rounded-[50%]"><i className="fa-solid fa-envelope"></i></div>
                     <p className="text-[10px] ">Support.gymcenter@gmail.com</p>
                 </div>
             </div>
@@ -32,11 +32,11 @@ function Footer() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua endisse ultrices gravida lorem.
                     </p>
                     <div className="text-white flex gap-x-2 text-[9px]">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-youtube"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-solid fa-envelope"></i>
+                        <i className="fa-brands fa-facebook-f"></i>
+                        <i className="fa-brands fa-twitter"></i>
+                        <i className="fa-brands fa-youtube"></i>
+                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa-solid fa-envelope"></i>
                     </div>
                 </div>
                 <div>
@@ -63,7 +63,7 @@ function Footer() {
                     <p className="w-[300px] text-[12px]">Fitness: The best exercise to lose belly fat and tone up...</p>
                 </div>
             </div>
-            <p className="text-[12px] text-center text-gray-400">Copyright ©2025 All rights reserved | This website is <span className="text-orange-500"><i class="fa-solid fa-heart"></i></span> mkfitnessweb</p>
+            <p className="text-[12px] text-center text-gray-400">Copyright ©2025 All rights reserved | This website is <span className="text-orange-500"><i className="fa-solid fa-heart"></i></span> mkfitnessweb</p>
         </div>
     )
 

@@ -1,31 +1,33 @@
 function Herosec2() {
 
     return <section className="bg-[#160402] h-100 p-5 flex justify-around items-center flex-col">
-        <div class="textxontainer flex justify-center items-center flex-col gap-y-2">
+        <div className="textxontainer flex justify-center items-center flex-col gap-y-2">
             <p className="text-[#f36100]">Why chose us?</p>
             <h2 className="text-white text-[18px] font-bold">PUSH YOUR LIMITS FORWARD</h2>
         </div>
-        <div class="flex justify-around items-center gap-3 h-50 px-3">
-            <div class="items1 gap-y-2 px-3 flex flex-col justify-center items-center  h-[200px]">
-                <div className="hover:bg-[#f36100] w-20 h-20 rounded-[50%] bg-[#ffffff1a] flex justify-center items-center  text-[#f36100] text-[30px] hover:text-white cursor-pointer transition-all duration-500 linear " ><i class="fa-solid fa-gauge "></i></div>
+        <div className="flex justify-around items-center gap-3 h-50 px-3">
+            <div className="items1 gap-y-2 px-3 flex flex-col justify-center items-center  h-[200px]">
+                <div className="hover:bg-[#f36100] w-20 h-20 rounded-[50%] bg-[#ffffff1a] flex justify-center items-center  text-[#f36100] text-[30px] hover:text-white cursor-pointer transition-all duration-500 linear " >
+                    <i className="fa-solid fa-gauge"></i>
+                </div>
                 <h4 className="text-white font-bold">Modern equipment</h4>
                 <p className="text-[#a9a9a9] text-[12px] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     dolore facilisis.</p>
             </div>
-            <div class="items2 gap-y-2 px-3 flex flex-col justify-center items-center  h-[200px]">
-                <div className="hover:bg-[#f36100] w-20 h-20 rounded-[50%] bg-[#ffffff1a] flex justify-center items-center text-[#f36100] text-[30px] hover:text-white cursor-pointer transition-all duration-500 linear "><i class="fa-solid fa-martini-glass "></i></div>
+            <div className="items2 gap-y-2 px-3 flex flex-col justify-center items-center  h-[200px]">
+                <div className="hover:bg-[#f36100] w-20 h-20 rounded-[50%] bg-[#ffffff1a] flex justify-center items-center text-[#f36100] text-[30px] hover:text-white cursor-pointer transition-all duration-500 linear "><i className="fa-solid fa-martini-glass "></i></div>
                 <h4 className="text-white font-bold">Healthy nutrition plan</h4>
                 <p className="text-[#a9a9a9] text-[12px]  text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     dolore facilisis.</p>
             </div>
-            <div class="items3 gap-y-2 px-3 flex flex-col justify-center items-center  h-[200px]">
-                <div className="hover:bg-[#f36100] w-20 h-20 rounded-[50%] bg-[#ffffff1a] flex justify-center items-center text-[#f36100] text-[30px] hover:text-white cursor-pointer transition-all duration-500 linear "><i class="fa-solid fa-dumbbell "></i></div>
+            <div className="items3 gap-y-2 px-3 flex flex-col justify-center items-center  h-[200px]">
+                <div className="hover:bg-[#f36100] w-20 h-20 rounded-[50%] bg-[#ffffff1a] flex justify-center items-center text-[#f36100] text-[30px] hover:text-white cursor-pointer transition-all duration-500 linear "><i className="fa-solid fa-dumbbell "></i></div>
                 <h4 className="text-white font-bold">Proffesponal training plan</h4>
                 <p className="text-[#a9a9a9] text-[12px]  text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     dolore facilisis.</p>
             </div>
-            <div class="items4 gap-y-2 px-3 flex flex-col justify-center items-center  h-[200px]">
-                <div className="hover:bg-[#f36100] w-20 h-20 rounded-[50%] bg-[#ffffff1a] flex justify-center items-center text-[#f36100] text-[30px] hover:text-white cursor-pointer transition-all duration-500 linear "><i class="fa-solid fa-heart-pulse "></i></div>
+            <div className="items4 gap-y-2 px-3 flex flex-col justify-center items-center  h-[200px]">
+                <div className="hover:bg-[#f36100] w-20 h-20 rounded-[50%] bg-[#ffffff1a] flex justify-center items-center text-[#f36100] text-[30px] hover:text-white cursor-pointer transition-all duration-500 linear "><i className="fa-solid fa-heart-pulse "></i></div>
                 <h4 className="text-white font-bold">Unique to your needs</h4>
                 <p className="text-[#a9a9a9] text-[12px]  text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     dolore facilisis.</p>
