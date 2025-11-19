@@ -4,7 +4,7 @@ function Herosec5() {
             <h1 className="text-center text-orange-500 font-bold" >Our Plan</h1>
             <h1 className="text-center text-white  font-bold">Choose your pricing plan</h1>
 
-            <div className="flex justify-center items-center pt-6 gap-x-10">
+            <div className="flex justify-center items-center pt-6 lg:gap-x-10 md:gap-x-6 flex-wrap">
                 <div className="hover:text-black text-center text-white border-2 hover:border-orange-500  border-gray-500 py-8 px-10 -skew-x-8 hover:bg-white  transition-all duration-400 linear">
                     <h2 className="font-bold">Class drop-in</h2>
                     <div className="flex flex-col justify-center items-center  gap-y-1">
@@ -52,8 +52,8 @@ function Herosec5() {
                     <div className="text-center mt-3 px-4 py-1 text-white transition-all duration-400 linear  bg-[#333333] ">
                         <button className="px-4 py-1 text-[14px] cursor-pointer"><a href="#" className="">Enroll now</a></button>
                     </div>
-                </div>orange
-                5           </div>
+                </div>
+ </div>
         </div>
 
     )

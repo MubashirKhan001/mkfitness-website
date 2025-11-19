@@ -4,7 +4,7 @@ function Header() {
 
     return (
 
-        <header className="p-8 flex justify-between items-center bg-cover bg-center">
+        <header className="lg:p-8 md:p-4 flex justify-between items-center bg-cover bg-center">
             <div>
                 <img className="w-[150px]" src={Logo} alt="FITNESS LOGO" />
             </div>

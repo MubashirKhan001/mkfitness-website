@@ -5,8 +5,8 @@ function Footer() {
 
     return (
         <div className="bg-black py-8 flex flex-col gap-y-15">
-            <div className="flex justify-around items-center  text-white">
-                <div className="flex gap-x-2 justify-center items-center">
+            <div className="flex justify-around items-center  text-white flex-wrap gap-y-7">
+                <div className="flex gap-x-2 justify-center items-center ">
                     <div className="flex justify-center items-center bg-orange-600 text-white w-[30px] h-[30px] rounded-[50%]"><i className="fa-solid fa-location-dot"></i></div>
                     <div className="text-[10px] flex flex-col gap-y-1">
                         <p>333 Middle Winchendon Rd, Rindge,</p>
@@ -23,7 +23,7 @@ function Footer() {
                     <p className="text-[10px] ">Support.gymcenter@gmail.com</p>
                 </div>
             </div>
-            <div className="flex justify-center  gap-x-20">
+            <div className="flex justify-center  lg:gap-x-20 md:gap-x-4  flex-wrap gap-y-4 gap-x-2">
                 <div className="flex gap-y-3 flex-col">
                     <div>
                         <img className="w-30" src={Logo} />
@@ -42,19 +42,19 @@ function Footer() {
                 <div>
                     <h1 className="text-white">Useful links</h1>
                     <ul className="text-gray-400">
-                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="">About</a></li>
-                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="">Blog</a></li>
-                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="">Classes</a></li>
-                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="">Contact</a></li>
+                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="#">About</a></li>
+                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="#">Blog</a></li>
+                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="#">Classes</a></li>
+                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h1 className="text-white">Useful links</h1>
+                    <h1 className="text-white">Support</h1>
                     <ul className="text-gray-400">
-                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="">About</a></li>
-                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="">Blog</a></li>
-                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="">Classes</a></li>
-                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="">Contact</a></li>
+                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="#">Login</a></li>
+                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="#">My account</a></li>
+                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="#">Subscribe</a></li>
+                        <li className="text-center"><a className="hover:text-orange-400 text-[12px]" href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div className="text-gray-400 flex flex-col gap-y-2">
