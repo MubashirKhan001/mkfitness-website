@@ -1,59 +1,37 @@
+import bgImg from "../../assets/image/3.jpg"
+
 function Herosec4() {
     return (
-        <div className="py-7 bg-[#151515]">
-            <h1 className="text-center text-orange-500 font-bold" >Our Plan</h1>
-            <h1 className="text-center text-white  font-bold">Choose your pricing plan</h1>
-
-            <div className="flex justify-center items-center pt-6 gap-x-10">
-                <div className="hover:text-black text-center text-white border-2 hover:border-orange-500  border-gray-500 py-8 px-10 -skew-x-8 hover:bg-white  transition-all duration-400 linear">
-                    <h2 className="font-bold">Class drop-in</h2>
-                    <div className="flex flex-col justify-center items-center  gap-y-1">
-                        <h1 className="text-orange-500 font-bold text-[30px]">$ 39.0</h1>
-                        <h4 className="text-gray-300">SINGLE CLASS</h4>
-                        <p className="text-gray-400 text-[12px]">Free riding</p>
-                        <p className="text-gray-400 text-[12px]">Unlimited equipments</p>
-                        <p className="text-gray-400 text-[12px]">Personal trainer</p>
-                        <p className="text-gray-400 text-[12px]">Weight losing classes</p>
-                        <p className="text-gray-400 text-[12px]">Month to mouth</p>
-                        <p className="text-gray-400 text-[12px]">No time restriction</p>
+        <div className="py-4 bg-cover bg-center flex justify-around items-center bg-black ">
+            <div>
+                <img className="h-110 w-380" src={bgImg} />
+            </div>
+            <div className="flex flex-col justify-center items-center gap-20 p-10">
+                <div  className="flex justify-center items-center gap-x-5">
+                    <div className="flex flex-col gap-2">
+                        <i className="fa-solid fa-bullseye text-orange-500 text-[30px]"></i>
+                        <h1 className="text-white">Strategies</h1>
+                        <p  className="text-[12px] text-gray-400">Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient montes.</p>
                     </div>
-                    <div className="text-center mt-3 px-4 py-1 text-white transition-all duration-400 linear  bg-[#333333]">
-                        <button className="px-4 py-1 text-[14px] cursor-pointer"><a href="#" className="">Enroll now</a></button>
+                    <div className="flex flex-col gap-2">
+                        <i className="fa-solid fa-dumbbell text-orange-500 text-[30px]"></i>
+                        <h1 className="text-white">Yoga</h1>
+                        <p className="text-[12px] text-gray-400"> Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient montes.</p>
                     </div>
                 </div>
-                <div className="hover:text-black text-white  border-2 border-gray-500 hover:border-orange-500 py-8 px-10 -skew-x-8 hover:bg-white transition-all  duration-400 linear">
-                    <h2 className="font-bold">12 Month unlimited</h2>
-                    <div className="flex flex-col justify-center items-center gap-y-1">
-                        <h1 className="text-orange-500 font-bold text-[30px]">$ 99.0</h1>
-                        <h4 className="text-gray-300">SINGLE CLASS</h4>
-                        <p className="text-gray-400 text-[12px]">Free riding</p>
-                        <p className="text-gray-400 text-[12px]">Unlimited equipments</p>
-                        <p className="text-gray-400 text-[12px]">Personal trainer</p>
-                        <p className="text-gray-400 text-[12px]">Weight losing classes</p>
-                        <p className="text-gray-400 text-[12px]">Month to mouth</p>
-                        <p className="text-gray-400 text-[12px]">No time restriction</p>
+                <div  className="flex justify-center items-center gap-x-5">
+                    <div className="flex flex-col gap-2">
+                        <i className="fa-solid fa-star text-orange-500 text-[30px]"></i>
+                        <h1 className="text-white">Workout</h1>
+                        <p  className="text-[12px] text-gray-400">Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient montes.</p>
                     </div>
-                    <div className="text-center mt-3 px-4 py-1 text-white transition-all duration-400 linear  bg-[#333333]">
-                        <button className="px-4 py-1 text-[14px] cursor-pointer"><a href="#" className="">Enroll now</a></button>
+                    <div className="flex flex-col gap-2">
+                        <i className="fa-solid fa-weight-scale text-orange-500 text-[30px]"></i>
+                        <h1 className="text-white">Weight Loss</h1>
+                        <p className="text-[12px] text-gray-400" >Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient montes.</p>
                     </div>
                 </div>
-                <div className="hover:text-black text-white border-2 border-gray-500  hover:border-orange-500 py-8 px-10 -skew-x-8 hover:bg-white transition-all  duration-400 linear">
-                    <h2 className="font-bold">6 Month unlimited</h2>
-                    <div className="flex flex-col justify-center items-center  gap-y-1">
-                        <h1 className="text-orange-500 font-bold text-[30px]">$ 59.0</h1>
-                        <h4 className="text-gray-300">SINGLE CLASS</h4>
-                        <p className="text-gray-400 text-[12px]">Free riding</p>
-                        <p className="text-gray-400 text-[12px]">Unlimited equipments</p>
-                        <p className="text-gray-400 text-[12px]">Personal trainer</p>
-                        <p className="text-gray-400 text-[12px]">Weight losing classes</p>
-                        <p className="text-gray-400 text-[12px]">Month to mouth</p>
-                        <p className="text-gray-400 text-[12px]">No time restriction</p>
-                    </div>
-                    <div className="text-center mt-3 px-4 py-1 text-white transition-all duration-400 linear  bg-[#333333] ">
-                        <button className="px-4 py-1 text-[14px] cursor-pointer"><a href="#" className="">Enroll now</a></button>
-                    </div>
-                </div>orange
-                5           </div>
+            </div>
         </div>
     )
 

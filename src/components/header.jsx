@@ -9,7 +9,7 @@ function Header() {
                 <img className="w-[150px]" src={Logo} alt="FITNESS LOGO" />
             </div>
             <nav>
-                <ul className="flex justify-center items-center gap-x-6 text-[20px]">
+                <ul className="flex justify-center items-center gap-x-6 text-[15px]">
                     <li className="transition-all duration-500 linear hover:translate-x-1"><a className=" text-orange-600 pb-1 border-b-2" href="index.html">HOME</a></li>
                     <li className="transition-all duration-500 linear hover:translate-x-1"><a className=" hover:text-orange-600 pb-1 border-b-2 border-transparent text-white hover:border-orange-600 transition-all duration-300 linear" href="#">ABOUT US</a></li>
                     <li className="transition-all duration-500 linear hover:translate-x-1"><a className=" hover:text-orange-600 pb-1 border-b-2 border-transparent text-white hover:border-orange-600 transition-all duration-300 linear" href="#">CONTACT </a></li>

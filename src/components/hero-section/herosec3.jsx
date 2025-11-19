@@ -1,5 +1,4 @@
-import herosec3Img from "../../assets/image/3.jpg"
-
+import herosec3Img from "../../assets/image/6.png"
 function Herosec3() {
     return (
         <div className="bg-cover bg-center  h-100  flex justify-center items-center flex-col gap-y-5"

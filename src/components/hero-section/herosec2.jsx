@@ -1,11 +1,11 @@
 function Herosec2() {
 
-    return <section className="bg-[#160402] h-100 p-5 flex justify-around items-center flex-col">
+    return <section className="bg-[#160402]  flex justify-around items-center flex-col pt-15">
         <div className="textxontainer flex justify-center items-center flex-col gap-y-2">
             <p className="text-[#f36100]">Why chose us?</p>
             <h2 className="text-white text-[18px] font-bold">PUSH YOUR LIMITS FORWARD</h2>
         </div>
-        <div className="flex justify-around items-center gap-3 h-50 px-3">
+        <div className="flex justify-around items-center gap-3 h-[350px] px-3">
             <div className="items1 gap-y-2 px-3 flex flex-col justify-center items-center  h-[200px]">
                 <div className="hover:bg-[#f36100] w-20 h-20 rounded-[50%] bg-[#ffffff1a] flex justify-center items-center  text-[#f36100] text-[30px] hover:text-white cursor-pointer transition-all duration-500 linear " >
                     <i className="fa-solid fa-gauge"></i>
@@ -31,7 +31,7 @@ function Herosec2() {
                 <h4 className="text-white font-bold">Unique to your needs</h4>
                 <p className="text-[#a9a9a9] text-[12px]  text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     dolore facilisis.</p>
-            </div>
+            </div>0
         </div>
 
     </section>
