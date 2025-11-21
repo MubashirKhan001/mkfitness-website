@@ -2,11 +2,11 @@ import bgImg from "../../assets/image/3.jpg"
 
 function Herosec4() {
     return (
-        <div className="py-4 bg-cover bg-center flex justify-around items-center bg-black flex-wrap ">
+        <div className="py-4 bg-cover bg-center flex justify-around items-center bg-black flex-col sm:flex-row">
             <div>
                 <img className="h-110 w-380" src={bgImg} />
             </div>
-            <div className="flex flex-col justify-center items-center gap-20 p-10 ">
+            <div className="flex flex-col justify-center items-center gap-20 p-10">
                 <div  className="flex justify-center items-center gap-x-5">
                     <div className="flex flex-col gap-2">
                         <i className="fa-solid fa-bullseye text-orange-500 text-[30px]"></i>

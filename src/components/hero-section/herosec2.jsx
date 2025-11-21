@@ -5,7 +5,7 @@ function Herosec2() {
             <p className="text-[#f36100]">Why chose us?</p>
             <h2 className="text-white text-[18px] font-bold">PUSH YOUR LIMITS FORWARD</h2>
         </div>
-        <div className="flex justify-around items-center gap-3 h-[350px] px-3 flex-wrap">
+        <div className="flex justify-around items-center gap-3 h-[350px] px-3 sm:flex-nowrap flex-wrap">
             <div className="items1 gap-y-2 px-3 flex flex-col justify-center items-center  h-[200px]">
                 <div className="hover:bg-[#f36100] w-20 h-20 rounded-[50%] bg-[#ffffff1a] flex justify-center items-center  text-[#f36100] text-[30px] hover:text-white cursor-pointer transition-all duration-500 linear " >
                     <i className="fa-solid fa-gauge"></i>

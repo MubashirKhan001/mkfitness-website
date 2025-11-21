@@ -1,5 +1,4 @@
 
-import { useState, useEffect } from "react";
 import Header from "./components/header";
 import Herosec1 from "./components/hero-section/herosec1";
 import Herosec2 from "./components/hero-section/herosec2";
@@ -13,7 +12,7 @@ function App() {
 
     return (
         <>
-            <div className="bg-cover bg-center h-screen overflow-x-auto"
+            <div className="bg-cover bg-center h-screen overflow-x-hidden"
                 style={{ backgroundImage: `url(${bgImg01}`}}>
                 <Header />
                 <Herosec1 />
