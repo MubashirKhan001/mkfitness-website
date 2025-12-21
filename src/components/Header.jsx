@@ -6,7 +6,7 @@ function Header() {
     return (
 
         <header className="lg:p-8 md:p-6 py-6 px-3 flex justify-between sm:items-center bg-cover bg-center">
-            <div>
+            <div className="max-[426px]:pt-1">
                 <img className="w-[150px]" src={Logo} alt="FITNESS LOGO" />
             </div>
             <nav className="sm:flex hidden">
