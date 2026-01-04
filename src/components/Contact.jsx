@@ -1,4 +1,4 @@
-import contactImage from "../assets/image/contact-img01.png"
+import contactImage from "../assets/image/contact-img01.webp"
 
 function Contact() {
 

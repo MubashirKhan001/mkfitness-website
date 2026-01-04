@@ -1,4 +1,4 @@
-import bgimg0 from "../assets/image/about-page-1.jpg"
+import bgimg0 from "../assets/image/about-page-1.webp"
 import bgimg1 from "../assets/image/aboutImg3.jpg"
 
 function About() {
