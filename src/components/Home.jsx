@@ -1,4 +1,4 @@
-import bgImg01 from "../assets/image/2.jpg";
+import bgImg01 from "../assets/image/2.webp";
 import herosec3Img from "../assets/image/6.png"
 import bgImg from "../assets/image/3.jpg"
 function Home() {
